@@ -12,7 +12,16 @@ doi = {https://doi.org/10.1093/mam/ozag053.652},
 author = {Y. Cardona-Maya and D. Uribe-Suárez and Luis C Olmos-Villalba  and Cesar A Isaza}
 }
 
-
+@article{,
+title = {Mechanical Properties by Micro-Raman Spectroscopy of Polymeric Matrix Composites Reinforced with MWCNTs},
+journal = {Microscopy and Microanalysis},
+volume = {32},
+number = {Supplement 1},
+year = {2026},
+issn = {1431-9276},
+doi = {https://doi.org/10.1093/mam/ozag053.007},
+author = {Y. Cardona-Maya and D. Uribe-Suárez and Cesar A Isaz}
+}
 
 @article{LuisAmigo_2023,
 title = {Analysis of the added value for the quantitative reasoning competency at the Luis Amigó Catholic University in 2021},
