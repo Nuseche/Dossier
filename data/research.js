@@ -25,7 +25,7 @@ doi = {https://doi.org/10.1093/mam/ozag053.652},
 author = {Y. Cardona-Maya and D. Uribe-Suárez and Luis C Olmos-Villalba  and Cesar A Isaza}
 }
 
-@article{,
+@article{FGM_2026_3,
 title = {Mechanical Properties by Micro-Raman Spectroscopy of Polymeric Matrix Composites Reinforced with MWCNTs},
 journal = {Microscopy and Microanalysis},
 volume = {32},
