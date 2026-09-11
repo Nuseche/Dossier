@@ -1,6 +1,19 @@
 var RESEARCH_TOPICS = [];
 var RESEARCH_IMAGE = "assets/publications.gif";
 var PUBLICATIONS_BIBTEX = `
+@article{FGM_2026_4,
+title = {Microscopy-Based Microstructural Analysis of Hybrid Cu–SiC–MWCNT Functionally Graded Composites Fabricated by Powder Metallurgy},
+journal = {Microscopy and Microanalysis},
+volume = {32},
+number = {Supplement 1},
+year = {2026},
+issn = {1431-9276},
+doi = {https://doi.org/10.1093/mam/ozag053.652},
+author = {Y. Cardona-Maya and D. Uribe-Suárez and Luis C Olmos-Villalba  and Cesar A Isaza}
+}
+
+
+
 @article{LuisAmigo_2023,
 title = {Analysis of the added value for the quantitative reasoning competency at the Luis Amigó Catholic University in 2021},
 journal = {Revista de Investigación, Desarrollo e Innovación},
