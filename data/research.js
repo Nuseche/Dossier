@@ -4,7 +4,7 @@ var PUBLICATIONS_BIBTEX = `
 
 @article{FGM_2026,
 	author = {Yamile Cardona-Maya and Diego Uribe-Suárez and Fernando Ramirez and Luis C. Olmos-Villalba and Cesar A. Isaza Merino},
-	title = {Hybrid {C}u-{S}i{C}-{MWCNT} functionally graded composites: fabrication and numerical modeling of flexural response},
+	title = {Hybrid Cu-SiC-MWCNT functionally graded composites: fabrication and numerical modeling of flexural response},
 	DOI= {10.1051/metal/2026097},
 	url= {https://doi.org/10.1051/metal/2026097},
 	journal = {Metall. Res. Technol.},
