@@ -1,6 +1,19 @@
 var RESEARCH_TOPICS = [];
 var RESEARCH_IMAGE = "assets/publications.gif";
 var PUBLICATIONS_BIBTEX = `
+
+@article{FGM_2026,
+	author = {{Cardona-Maya, Yamile} and {Uribe-Suárez, Diego} and {Ramirez, Fernando} and {Olmos-Villalba, Luis C.} and {Isaza Merino, Cesar A.}},
+	title = {Hybrid {C}u-{S}i{C}-{MWCNT} functionally graded composites: fabrication and numerical modeling of flexural response},
+	DOI= "10.1051/metal/2026097",
+	url= "https://doi.org/10.1051/metal/2026097",
+	journal = {Metall. Res. Technol.},
+	year = 2026,
+	volume = 123,
+	number = 5,
+	pages = "522",
+}
+
 @article{FGM_2026_4,
 title = {Microscopy-Based Microstructural Analysis of Hybrid Cu–SiC–MWCNT Functionally Graded Composites Fabricated by Powder Metallurgy},
 journal = {Microscopy and Microanalysis},
