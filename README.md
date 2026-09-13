@@ -71,6 +71,9 @@ Edita el objeto `PROFILE`:
 - Agrega o edita miembros en el array `GROUP_MEMBERS`.
 - Para la foto de cada miembro, pon la imagen en `assets/members/` y referencia su ruta.
 - Si no hay foto, se mostrará un círculo con las iniciales.
+- `formation`, `email` y `photo` son opcionales; los campos vacíos no se muestran.
+- Los enlaces admitidos incluyen ORCID, GitHub, LinkedIn, Google Scholar,
+  ResearchGate, CvLAC y Academia.
 
 ### 4. Cursos (`data/teaching.js`)
 - `UNDERGRADUATE_COURSES`: cursos de pregrado.

@@ -222,12 +222,19 @@ function renderMemberCard(m) {
   var photoHtml = m.photo
     ? '<img src="' + m.photo + '" alt="' + m.name + '" class="member-photo" onerror="this.style.display=\'none\'">'
     : '<div class="member-photo-placeholder">' + initials + '</div>';
+  var formationHtml = m.formation
+    ? '<div class="member-formation">' + m.formation + '</div>'
+    : '';
+  var emailHtml = m.email
+    ? '<div class="member-email"><a href="mailto:' + m.email + '">' + m.email + '</a></div>'
+    : '';
 
   var links = [
     { label: 'Scholar',      url: m.googleScholar  || '' },
     { label: 'ORCID',        url: m.orcid          || '' },
     { label: 'ResearchGate', url: m.researchgate   || '' },
     { label: 'CvLAC',        url: m.cvlac          || '' },
+    { label: 'GitHub',       url: m.github         || '' },
     { label: 'LinkedIn',     url: m.linkedin       || '' },
     { label: 'Academia',     url: m.academia       || '' },
   ].filter(function(l) { return l.url; });
@@ -238,11 +245,11 @@ function renderMemberCard(m) {
     + '<div>'
     + '<div class="member-name">' + m.name + '</div>'
     + '<div class="member-position">' + m.position + '</div>'
-    + '<div class="member-formation">' + m.formation + '</div>'
+    + formationHtml
     + '</div>'
     + '</div>'
     + (m.description ? '<div class="member-desc">' + m.description + '</div>' : '')
-    + '<div class="member-email"><a href="mailto:' + m.email + '">' + m.email + '</a></div>'
+    + emailHtml
     + (links.length
         ? '<div class="member-links">'
           + links.map(function(l) {
