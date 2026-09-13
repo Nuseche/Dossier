@@ -117,5 +117,14 @@ var GROUP_MEMBERS = [
     photo: "assets/members/Undergrad_Tomas.JPG.jpeg",
     linkedin: "https://www.linkedin.com/in/tom%C3%A1s-palacios-mu%C3%B1oz-31006736b/",
     researchgate: ""
+  },
+  {
+    id: 9,
+    name: "Nicolas Andres Useche Castillo",
+    position: "Undergraduate Researcher",
+    description: "Nicolas works on coupled multiphysics problems, with interests spanning mesh-based numerical methods—particularly isogeometric analysis—and particle-based approaches such as SPH, MPM, and PFEM. He currently develops and implements computational models for cutting processes in anisotropic metals and studies cavitation-induced impacts on walls made of reinforced materials.",
+    orcid: "https://orcid.org/0009-0003-9363-8766",
+    linkedin: "https://www.linkedin.com/in/nicolas-andres-useche-castillo-942192331",
+    github: "https://github.com/Nuseche"
   }
 ];
